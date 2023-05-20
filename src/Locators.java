@@ -1,3 +1,4 @@
+
 /*
  * This Selenium WebDriver program navigates to 'https://rahulshettyacademy.com/locatorspractice/'
  * and automates a reset password and login process using a variety of locators for practice.

@@ -1,8 +1,4 @@
-/*
- * This Selenium WebDriver program automates a login process by first acquiring the password
- * needed to login from another page. Then TestNG is used to assert that we have successfully
- * logged in. The program finishes by logging out and closing WebDriver.
- */
+
 
 import java.time.Duration;
 
@@ -18,7 +14,6 @@ public class Locators2 {
 		String actual;
 		String expected;
 
-		System.setProperty("webdriver.chrome.driver", "C:/Users/Joey/Documents/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		
